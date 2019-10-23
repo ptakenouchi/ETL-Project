@@ -1,0 +1,27 @@
+#Heart Stroke VS Fast Food - Schema
+
+FastFood
+-
+Province varchar FK >- FastFood.City
+City varchar 
+Name varchar
+Distribution int
+
+Diseases 
+-
+dma varchar pk FK >- FastFood.Province
+2015+Diarrhea int
+2015+Obesity int
+2015+Diabetes int 
+2015+Cancer int
+2015+Depression in
+2016+Diarrhea int
+2016+Obesity int
+2016+Diabetes int 
+2016+Cancer int
+2016+Depression int
+2017+Diarrhea int
+2017+Obesity int
+2017+Diabetes int 
+2017+Cancer int
+2017+Depression int
